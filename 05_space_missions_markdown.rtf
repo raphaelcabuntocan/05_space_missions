@@ -48,7 +48,7 @@ possible analyses: \
 - most frequent type of mission\
 - rocket with the most amount of launches, least, etc.\
 - countries with the most number of:\
-	- attempted lauches\
+	- attempted laumches\
 	- successful launches\
 - number of launches of top 5 countries with the most number of launches\
 - most used rocket\
@@ -75,7 +75,96 @@ the time entries are date time, all having the same date. if it will be used, it
 most used rocket\
 \
 there\'92s a lot of years with missing prices. was that during the cold war?\
+23:59 - OUT\
+\
+\
+2023/09/14\
+19:38 - IN\
+\
+as of now, what has been analyzed are:\
+- number of rockets per year\
+- sum of prices of rockets per year\
+- count of rockets with prices per year\
+- \
+\
+\
+create an analysis that has filters that shows per country, and per year. this could also incorporate a map and a dropdown list\
+\
+\
+I extracted the name of the countries though RIGHT and IF. I will clean it further using TRIM. I will also look for the errors (non-country names) through pivot tables.\
+through the pivot table, I was able to identify 7 non-country names out of 22 entries\
+there are 50 rockets from these sites.\
+I have to replace them manually with the proper country name\
+Did kazakhstan really launch rockets or was it the USSR? russia still launches rockets in kazakhstan today\
+\
+di ko na matuloy. need to sleep already\
+\
+\
+2023/09/16\
+8:50\
+\
+so make a summary table\
+year | country | planned launches | successful launches | number of types of rockets | average cost |  \
+\
+major variables:\
+1. launches (planned, successful)\
+- number of annual planned launches (viz, gawa ng tick box filter for countries or years)\
+- growth of annual planned launches\
+- number of successful launches (bar graph)\
+- percent of successful launches\
+- growth in percentage of successful launches\
+\
+2. rocket types\
+2.1 how many rocket types launched per year (graph)\
+2.1.1 overall\
+2.1.2 per country\
+- growth in number of rocket types\
+\
+3. cost\
+2.1 average cost of launch per year (graph)\
+2.1.1 overall\
+2.1.2 per country \
+2.2 average cost of successful launches (graph)\
+\
+4. country\
+- how many countries are launching yearly? (graph)\
+\
+percent of \
+growth rate of number of launches \
 \
 \
 \
-}
+\
+more general,\
+average number of annual launches per country \
+\
+\
+rank countries (bar graphs)\
+\
+take note of the prominent rockets (image)\
+\
+prediction of launch growth, global (graph)\
+\
+\
+9:47\
+ASI is Italian pala, not Kenyan. Ang galing kasi nakikita ko na talagang needed yung ina-analyze mo yung data. the machine is just helping\
+\
+9:54\
+the launch summary sheet is complete\
+\
+10:18 - break\
+\
+\
+10:47 - continue\
+\
+11:20 yu ku na yung sa excel. ang hirap ng count distinct don. di ko makuha. will instead use sql for the count distinct and then import the prepared spreadsheet\
+\
+11:46 - matudtud naku p\'e2\
+\
+\
+\
+14:35\
+after sleeping, I returned to querying. now I feel fully energized. blessed are You, LORD our God, Who brings sleep to my eyes.\
+\
+15:24\
+done querying and preparing data. will be starting the visual and statistical analysis now.}
